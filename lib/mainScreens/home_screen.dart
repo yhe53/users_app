@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:users_app/widgets/my_drawer.dart';
 
 class HomeScreen extends StatefulWidget {
 
@@ -10,6 +11,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: MyDrawer(),
       appBar: AppBar(
         flexibleSpace: Container(
           decoration: const BoxDecoration(
